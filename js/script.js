@@ -33,7 +33,7 @@ $(document).ready(function() {
         $('.menu-btn i').toggleClass("active");
     });
 
-    // typing text animation script
+    /* typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Problem-solving",
             "Coding",
@@ -61,6 +61,7 @@ $(document).ready(function() {
         backSpeed: 60,
         loop: true
     });
+    */
 
     // owl carousel script
     $('.carousel').owlCarousel({

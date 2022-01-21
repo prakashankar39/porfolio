@@ -675,10 +675,10 @@ footer span a:hover {
         padding: 0 23px;
     }
     .home .home-content .text-2 {
-        font-size: 60px;
+        font-size: 45px;
     }
     .home .home-content .text-3 {
-        font-size: 32px;
+        font-size: 20px;
     }
     .home .home-content a {
         font-size: 20px;
@@ -690,10 +690,10 @@ footer span a:hover {
 
 @media (max-width: 500px) {
     .home .home-content .text-2 {
-        font-size: 50px;
+        font-size: 40px;
     }
     .home .home-content .text-3 {
-        font-size: 27px;
+        font-size: 18px;
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text {
