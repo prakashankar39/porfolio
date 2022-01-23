@@ -453,6 +453,10 @@ section .title::after {
     margin: 10px 0 7px 0;
 }
 
+.works .works-content .card a {
+    color: #fff;
+}
+
 
 /* contact section styling */
 
