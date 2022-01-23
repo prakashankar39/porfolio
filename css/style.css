@@ -47,6 +47,7 @@ section {
 .about,
 .skills,
 .works,
+.certificates,
 .contact,
 footer {
     font-family: 'Poppins', sans-serif;
@@ -55,6 +56,7 @@ footer {
 .about .about-content,
 .skills .skills-content,
 .works .works-content,
+.certificates .certificates-content,
 .contact .contact-content {
     display: flex;
     flex-wrap: wrap;
@@ -379,23 +381,23 @@ section .title::after {
 }
 
 .skills-content .right .html::before {
-    width: 90%;
+    width: 95%;
 }
 
 .skills-content .right .css::before {
-    width: 60%;
+    width: 85%;
 }
 
-.skills-content .right .js::before {
+.skills-content .right .javascript::before {
     width: 80%;
 }
 
-.skills-content .right .php::before {
-    width: 50%;
+.skills-content .right .java::before {
+    width: 70%;
 }
 
-.skills-content .right .mysql::before {
-    width: 70%;
+.skills-content .right .sql::before {
+    width: 75%;
 }
 
 
@@ -454,10 +456,67 @@ section .title::after {
 }
 
 
+/* certificates section styling */
+
+.certificates .title::before {
+    color: rgb(20, 123, 220);
+}
+
+.certificates .title::after {
+    background: #fff;
+    content: "see my certificates";
+    width: 260px;
+}
+
+.certificates .certificates-content .card {
+    width: calc(50% - 35px);
+    background: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.certificates .certificates-content .card iframe {
+    object-fit: contain;
+    width: calc(100%);
+}
+
+.certificates .certificates-content .card:hover {
+    background: rgb(20, 123, 220);
+}
+
+.certificates .certificates-content .card .box {
+    transition: all 0.3s ease;
+    padding: 25px 0;
+}
+
+.certificates .certificates-content .card:hover .box {
+    transform: scale(1.05);
+}
+
+.certificates .certificates-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
 /* contact section styling */
+
+.contact {
+    background-color: #2d312b;
+    color: #fff;
+}
+
+.contact .title::before {
+    background: #fff;
+}
 
 .contact .title::after {
     content: "get in touch";
+    background-color: #2d312b;
 }
 
 .contact .contact-content .column {
@@ -668,6 +727,10 @@ footer span a:hover {
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .certificates .certificates-content .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 690px) {
@@ -686,6 +749,9 @@ footer span a:hover {
     .works .works-content .card {
         width: 100%;
     }
+    .certificates .certificates-content .card {
+        width: 100%;
+    }
 }
 
 @media (max-width: 500px) {
@@ -697,7 +763,7 @@ footer span a:hover {
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text {
-        font-size: 19px;
+        font-size: 18px;
     }
     .contact .right form .fields {
         flex-direction: column;
