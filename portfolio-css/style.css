@@ -379,23 +379,31 @@ section .title::after {
 }
 
 .skills-content .right .html::before {
-    width: 95%;
+    width: 98%;
 }
 
 .skills-content .right .css::before {
-    width: 85%;
+    width: 90%;
+}
+
+.skills-content .right .react::before {
+    width: 95%;
 }
 
 .skills-content .right .javascript::before {
-    width: 80%;
+    width: 90%;
+}
+
+.skills-content .right .kotlin::before {
+    width: 85%;
 }
 
 .skills-content .right .java::before {
-    width: 70%;
+    width: 85%;
 }
 
 .skills-content .right .sql::before {
-    width: 75%;
+    width: 80%;
 }
 
 
