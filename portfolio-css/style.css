@@ -230,6 +230,11 @@ section .title::after {
     margin: 5px 0;
 }
 
+.home .home-content .text-4 {
+    font-size: 30px;
+    margin: 5px 0;
+}
+
 .home .home-content .text-3 span {
     color: rgb(20, 123, 220);
     font-weight: 500;
