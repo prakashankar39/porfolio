@@ -311,7 +311,7 @@ nav a:hover,
   background:var(--surface);
   border:1px solid #1d1d1d;
   border-radius:16px;
-  min-height:320px;
+  min-height:360px;
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -322,10 +322,12 @@ nav a:hover,
 
 .gear-card img{
   width:100%;
-  max-width:300px;
-  height:auto;
-  border-radius:8px;
-  margin-bottom:15px;
+  max-width:320px;
+  height:240px;
+  object-fit:contain;
+  border-radius:16px;
+  background:#0c0c0c;
+  margin-bottom:18px;
 }
 
 .gear-card h3{
@@ -373,10 +375,11 @@ nav a:hover,
   gap:18px;
 }
 
-.social-gallery img{
-  height:260px;
-  object-fit:contain;
-  border-radius:14px;
+.social-gallery img {
+  width: 100%;
+  aspect-ratio: 5 / 4;
+  object-fit: cover;
+  border-radius: 14px;
 }
 
 .footer{
